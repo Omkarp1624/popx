@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #d3d3d3;
+}
+
+.app-container {
+  width: 375px;
+  height: 812px;
+  background-color: #f7f8f9;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  
+  /* --- KEY CHANGES --- */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  position: relative; /* Keep this for child positioning if needed, but not for the footer itself */
+}
+
+.main-content {
+  flex-grow: 1; /* This is the magic! It tells this div to take up ALL available space */
+  overflow-y: auto; /* Allows only the content area to scroll */
+  padding: 20px; /* Move padding here from app-container */
+}

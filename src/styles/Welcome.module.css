@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 0;
+}
+.content { margin-bottom: 20px; }
+.title { font-size: 28px; color: #1d1d1d; margin: 0 0 10px 0; }
+.subtitle { font-size: 18px; color: #9a9a9a; line-height: 1.4; margin: 0; }
+.buttons a { display: block; text-align: center; padding: 15px; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 16px; margin-top: 10px; }
+.createBtn { background-color: #6c25ff; color: white; }
+.loginBtn { background-color: #cebafb; color: #1d1d1d; }

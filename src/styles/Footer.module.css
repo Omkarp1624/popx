@@ -1,0 +1,15 @@
+/* src/styles/Footer.module.css */
+.footer {
+  /* The position, bottom, left properties are GONE */
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f7f8f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid #e0e0e0;
+  flex-shrink: 0; /* Prevents the footer from shrinking */
+}
+
+/* ... all other styles for .homeIcon, .pageCounter, etc. are fine ... */

@@ -1,0 +1,10 @@
+.container { padding-top: 20px; }
+.title { font-size: 28px; font-weight: 500; color: #1d1d1d; margin-bottom: 10px; }
+.subtitle { font-size: 18px; color: #9a9a9a; margin-bottom: 30px; }
+.inputGroup { position: relative; margin-bottom: 25px; }
+.inputGroup input { width: 100%; padding: 12px 10px; border: 1px solid #cbcbcb; border-radius: 6px; font-size: 16px; outline: none; box-sizing: border-box; }
+.inputGroup label { position: absolute; top: -10px; left: 10px; background-color: #f7f8f9; padding: 0 5px; font-size: 13px; color: #6c25ff; font-weight: 500; }
+.submitBtn { display: block; width: 100%; padding: 15px; border: none; background-color: #6c25ff; color: white; border-radius: 6px; font-size: 16px; font-weight: 500; cursor: pointer; text-align: center; text-decoration: none; box-sizing: border-box; }
+.radioGroup p { margin: 0 0 10px 0; color: #1d1d1d; }
+.radioGroup input { margin-right: 5px; }
+.radioGroup label { margin-right: 20px; color: #1d1d1d; }
